@@ -1,0 +1,54 @@
+.menu{
+    width: 270px;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+li{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin: auto;
+}
+
+.cardItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardItem img{
+    height: 160px;
+    width: 150px;   
+
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    
+    border: solid 0;
+
+    height: 30px;
+}
+
+.price{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.name{
+    color: grey;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
